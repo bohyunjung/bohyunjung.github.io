@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbohyunjung_blog=self.webpackChunkbohyunjung_blog||[]).push([[4124],{9696:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
