@@ -1,0 +1,21 @@
+baseURL = 'https://bohyunjung.com'
+title = "bohyunjung.com"
+theme = "hugo-theme-console"
+languageCode = "ko-kr"
+
+[params]
+animateStyle = "animated zoomIn fast"
+custom_css = ["css/custom.css"]
+googleAnalyticsID = "G-6MX4MC9754"
+
+[[params.navlinks]]
+name = "about/"
+url = "about/"
+
+[[params.navlinks]]
+name = "posts/"
+url = "posts/"
+
+[[params.navlinks]]
+name = "tags/"
+url = "tags/"

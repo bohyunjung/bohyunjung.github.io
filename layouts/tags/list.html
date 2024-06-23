@@ -1,0 +1,36 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+<br/>
+{{ .Content }}
+
+<div class="posts-list">
+  
+{{ if ( eq .Page.Kind "taxonomy" )}}
+  {{range $index, $var := .Site.Taxonomies.tags.ByCount }}
+    {{ with $.Site.GetPage (printf "/tags/%s" .Name) }}
+      <div class="post">
+        {{$var.Count}}
+        <div class="date">
+        </div>
+  	      <a href={{ .RelPermalink }} title="All pages with tag <i>{{.Name}}</i>">{{.Name}}</a>
+      </div>
+    {{end}}
+  {{end}}
+
+{{else}}
+  {{ range sort .Data.Pages "Date" "desc" }}
+      {{ if not .Params.private }}
+          <div class="post">
+              <p>
+                  <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
+                  <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                  {{ .Summary }}
+              </p>
+          </div>
+      {{ end }}
+  {{ end }}
+{{ end }}
+
+</div>
+
+{{ end }}
