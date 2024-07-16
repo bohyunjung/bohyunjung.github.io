@@ -9,9 +9,6 @@ const config: Config = {
   url: 'https://bohyunjung.com',
   baseUrl: '/',
 
-  organizationName: 'bohyunjung',
-  projectName: 'bohyunjung.github.io',
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
