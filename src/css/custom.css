@@ -1,0 +1,62 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+@font-face {
+  font-family: 'D2Coding';
+  src: url('/font/D2Coding.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'D2Coding';
+  src: url('/font/D2CodingBold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-font-color-base: var(--ifm-color-gray-800);
+  --ifm-font-family-base: D2Coding, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  --ifm-font-family-monospace: D2Coding, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  --ifm-color-primary: #ff4f01;
+  --ifm-color-primary-dark: #e64700;
+  --ifm-color-primary-darker: #da4300;
+  --ifm-color-primary-darkest: #b33700;
+  --ifm-color-primary-light: #ff611b;
+  --ifm-color-primary-lighter: #ff6a27;
+  --ifm-color-primary-lightest: #ff844e;
+  --ifm-background-color: #fafafa;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+html * {
+  font-size: 16px !important;
+}
+
+header h1,
+header h2 a,
+article h1 {
+  font-size: 18px !important;
+}
+
+.navbar__title {
+  color: var(--ifm-color-primary);
+  font-weight: normal;
+}
+
+.pagination-nav {
+  display: none;
+}
+
+.table-of-contents {
+  display: none;
+}
