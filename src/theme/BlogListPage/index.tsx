@@ -21,7 +21,7 @@ function BlogListPageMetadata(props: Props): JSX.Element {
   } = useDocusaurusContext();
   const {blogDescription, blogTitle, permalink} = metadata;
   const isBlogOnlyMode = permalink === '/';
-  const title = "home";
+  const title = "Home";
   return (
     <>
       <PageMetadata title={title} description={blogDescription} />
