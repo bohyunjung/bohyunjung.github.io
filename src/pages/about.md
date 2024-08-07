@@ -23,6 +23,8 @@ slug: about
     - [아스파탐](https://youtube.com/shorts/7VKKMEMLSpc?feature=share)
     - [VSCode 입코딩 플러그인](https://www.youtube.com/watch?v=OnxAKXqipsQ) - AGI KR [포스트](https://bit.ly/3e5DzG3)
 
+---
+
 # 커뮤니티와 워크숍
 
 - 이:음 크리에이티브 코딩 [워크숍](http://www.i-eum.or.kr/board/read?boardManagementNo=1&boardNo=2800&level=2&menuNo=2) 강사 · 2021
