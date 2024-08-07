@@ -45,6 +45,11 @@ const config: Config = {
       items: [
         { to: '/about', label: 'About', position: 'right' },
         {
+          to: 'https://github.com/bohyunjung',
+          label: 'GitHub',
+          position: 'right',
+        },
+        {
           to: 'https://www.linkedin.com/in/bohyun-jung/',
           label: 'LinkedIn',
           position: 'right',
