@@ -29,7 +29,7 @@ slug: about
 
 # 커뮤니티와 워크숍
 
-- 이:음 크리에이티브 코딩 [워크숍](http://www.i-eum.or.kr/board/read?boardManagementNo=1&boardNo=2800&level=2&menuNo=2) 강사 · 2021
+- 이:음 크리에이티브 코딩 [워크숍](https://kdac.or.kr/board/read?boardManagementNo=1&boardNo=2800&level=2&menuNo=2) 강사 · 2021
 - SeMA \<마법같은 수의 세계\> [워크숍](https://www.youtube.com/watch?v=tzNgy9kA2Mg) 강사 · 2020
 - SFPC Summer 2019 in Yamaguchi [워크숍](https://www.ycam.jp/en/events/2019/sfpc/) 참여 · 2019
 - Peer-to-Peer Folder Poetry · 2019
@@ -43,7 +43,7 @@ slug: about
 
 - [\<나 좋자고 하는 일인데요\>](https://product.kyobobook.co.kr/detail/S000201863585) (고재형) · 2023
 - [컬리 커머스플랫폼의 개발문화를 만들어가는 사람들](https://helloworld.kurly.com/blog/commerce-platform-facilitators-2022/) · 2023
-- [다르게 배우는 사람을 위한 예술적 표현의 확장](http://ieumzine.kr/archives/79120) · 2021
+- [다르게 배우는 사람을 위한 예술적 표현의 확장](https://ieum.or.kr/user/webzine/view.do?idx=84) · 2021
 - [컴퓨테이션 - 혁신이 아닌 발명](http://factory483.org/program/14324) · 2020
 - [SFPC in Yamaguchi — Thanksgiving for the program](https://medium.com/sfpc/sfpc-in-yamaguchi-thanksgiving-for-the-program-1336f8c5e63f) · 2019
 - [한글무늬 도구 기획 & 제작기](https://www.youtube.com/watch?v=U1F5JXPxlcU) · 2017
