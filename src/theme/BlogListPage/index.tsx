@@ -33,8 +33,8 @@ function BlogListPageMetadata(props: Props): JSX.Element {
 function BlogListPageContent(props: Props): JSX.Element {
   const {metadata, items, sidebar} = props;
   return (
-    <BlogLayout sidebar={sidebar}>
-      <BlogPostItems items={items} />
+    <BlogLayout sidebar={sidebar} wrapperClassName='blog-list-page-wrapper'>
+      <BlogPostItems items={items}/>
       <BlogListPaginator metadata={metadata} />
     </BlogLayout>
   );

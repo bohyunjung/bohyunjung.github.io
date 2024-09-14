@@ -60,3 +60,7 @@ article h1 {
 .table-of-contents {
   display: none;
 }
+
+.blog-list-page-wrapper article .markdown > h2:first-child {
+  margin-top: 0;
+}
