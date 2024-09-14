@@ -52,7 +52,6 @@ slug: about
 
 # 인터랙티브 웹
 
-- [thezam 브라연구소](https://lab.thezam.co.kr/#/) · 2021
 - [코드로 쓴 시 - 카산드레를 기억하며](https://bohyunjung.com/code-poetry-after-cassandre/) · 2021
 - \<테넷\>(2020)에 영감을 받은 [인버전 발화 번역기](https://www.youtube.com/watch?v=yKpdknz84zQ) · 2020
 - 네이버 스페셜 로고
