@@ -34,7 +34,7 @@ function BlogListPageContent(props: Props): JSX.Element {
   const {metadata, items, sidebar} = props;
   return (
     <BlogLayout sidebar={sidebar} wrapperClassName='blog-list-page-wrapper'>
-      <BlogPostItems items={items}/>
+      <BlogPostItems items={items.filter(item => item.content.frontMatter.unlisted !== true)}/>
       <BlogListPaginator metadata={metadata} />
     </BlogLayout>
   );
