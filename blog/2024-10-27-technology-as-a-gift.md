@@ -3,7 +3,7 @@ slug: technology-as-a-gift
 title: "선물로서의 기술"
 ---
 
-기술을 선물로 바라본다는 것은 어떤 의미일까? 2019년 일본 야마구치에서 열린 실험적 교육 프로그램 '[SFPC Summer 2019 in Yamaguchi](https://www.ycam.jp/en/events/2019/sfpc/)'는 이 질문으로부터 시작됐다. 뉴욕의 실험 학교인 [School For Poetic Computation (시적연산학교, SFPC)](https://www.instagram.com/sfpc_nyc/)가 주최한 이 프로그램은 'Technology as a gift (선물로서의 기술)'이라는 주제로 예술과 코드, 하드웨어 그리고 이론이 교차하는 지점을 탐구했다. 평소 SFPC의 활동을 흥미롭게 지켜보던 나는 추석 연휴 직전 열흘 동안 이 프로그램에 참여했다. 그리고 그곳에서 소프트웨어 개발자로서 내가 만드는 제품과 기술을 바라보는 관점을 완전히 바꿀 수 있었다.
+기술을 선물로 바라본다는 것은 어떤 의미일까? 2019년 일본 야마구치에서 열린 실험적 교육 프로그램 '[SFPC Summer 2019 in Yamaguchi](https://www.ycam.jp/en/events/2019/sfpc/)'는 이 질문으로부터 시작됐다. 뉴욕의 실험 학교인 [School For Poetic Computation (시적연산학교, SFPC)](https://www.instagram.com/sfpc_nyc/)가 주최한 이 프로그램은 'Technology as a gift (선물로서의 기술)'이라는 주제로 예술과 코드, 하드웨어 그리고 이론이 교차하는 지점을 탐구했다. 평소 SFPC의 활동을 흥미롭게 지켜보던 나는 지난 2019년 추석 연휴 직전 열흘 동안 이 프로그램에 참여했다. 그리고 그곳에서 소프트웨어 개발자로서 내가 만드는 제품과 기술을 바라보는 관점을 완전히 바꿀 수 있었다.
 
 <!-- truncate -->
 
