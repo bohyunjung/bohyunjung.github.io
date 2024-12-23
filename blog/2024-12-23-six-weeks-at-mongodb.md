@@ -1,6 +1,7 @@
 ---
 slug: six-weeks-at-mongodb
 title: "MongoDB에서의 첫 6주 돌아보기"
+image: "/img/blog/2024-12-23-six-weeks-at-mongodb/4.jpg"
 ---
 
 11월 11일 MongoDB에 입사한 지 첫 6주가 지났다. 알차게 구성된 회사 온보딩 프로그램을 포함해, 실무를 미리 견습할 수 있었던 기회들까지 다양한 활동들로 시간을 보냈다. 이번 글을 통해 지금까지 MongoDB에서의 경험을 간략히 돌아보려 한다.
