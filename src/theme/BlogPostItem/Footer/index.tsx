@@ -1,13 +1,13 @@
-import React from 'react';
+import React, {type ReactNode} from 'react';
 import clsx from 'clsx';
-import { useBlogPost } from '@docusaurus/theme-common/internal';
-import { ThemeClassNames } from '@docusaurus/theme-common';
+import {useBlogPost} from '@docusaurus/plugin-content-blog/client';
+import {ThemeClassNames} from '@docusaurus/theme-common';
 import EditMetaRow from '@theme/EditMetaRow';
 import TagsListInline from '@theme/TagsListInline';
 import ReadMoreLink from '@theme/BlogPostItem/Footer/ReadMoreLink';
 
-export default function BlogPostItemFooter(): JSX.Element | null {
-  const { metadata, isBlogPostPage } = useBlogPost();
+export default function BlogPostItemFooter(): ReactNode {
+  const {metadata, isBlogPostPage} = useBlogPost();
   const {
     tags,
     title,
@@ -65,7 +65,7 @@ export default function BlogPostItemFooter(): JSX.Element | null {
     return (
       <footer className="row docusaurus-mt-lg">
         {tagsExists && (
-          <div className={clsx('col', { 'col--9': truncatedPost })}>
+          <div className={clsx('col', {'col--9': truncatedPost})}>
             <TagsListInline tags={tags} />
           </div>
         )}
