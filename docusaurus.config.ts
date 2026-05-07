@@ -78,6 +78,10 @@ const config: Config = {
           type: 'custom-lang-toggle',
           position: 'right',
         },
+        {
+          type: 'custom-blog-home-link',
+          position: 'right',
+        },
         { type: 'custom-about-link', position: 'right' },
         {
           to: 'https://github.com/bohyunjung',
