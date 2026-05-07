@@ -4,8 +4,13 @@ slug: /en/about
 
 # About
 
-Hi, I'm Bohyun Jung, a developer who creates and communicates. I find myself somewhere between the technical and the literary.
-I'm interested in designing developer experiences through technical content.
+Hi, I'm Bohyun Jung.
+
+I've spent over 10 years as a developer and keep finding myself drawn to the work of communicating technology well. Building great technology matters, but communicating it effectively is what unlocks its real value. I'm currently a Senior Developer Advocate at [MongoDB](https://www.mongodb.com), working with developer communities across APAC.
+
+I love jazz, airports and cultures I haven't encountered before. I'm raising a young family with my partner and care about keeping records of things.
+
+<div style={{display: 'none'}}>
 
 ---
 
@@ -57,3 +62,5 @@ I'm interested in designing developer experiences through technical content.
 - Naver Special Logos
   - [Hangeul Pattern Maker](https://logoproject.naver.com/hanguel) · 2017
   - [Christmas Wreath Maker](https://logoproject.naver.com/christmas) · 2017
+
+</div>

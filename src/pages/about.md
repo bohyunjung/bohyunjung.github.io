@@ -4,8 +4,13 @@ slug: about
 
 # About
 
-안녕하세요, 연출하고 소통하는 개발자 정보현입니다. 기술적인 것과 문학적인 것, 그 사이 어딘가에서 균형을 찾고 있습니다.
-기술 콘텐츠를 활용한 개발자 경험(Developer Experience) 설계에 관심이 있습니다.
+안녕하세요, 정보현입니다.
+
+개발자로 10년 넘게 일하면서, 기술을 잘 만드는 것만큼 잘 전달하는 것이 중요하다는 생각으로 일해왔습니다. 지금은 [MongoDB](https://www.mongodb.com)에서 APAC 지역을 담당하는 시니어 개발자 어드보킷으로 일하고 있습니다.
+
+재즈와 공항을 좋아하고, 낯선 문화에 이끌립니다. 어린 아가와 함께 세 식구로 즐거운 날들을 보내는 중이고, 기록하는 일에도 관심이 많습니다.
+
+<div style={{display: 'none'}}>
 
 ---
 
@@ -57,3 +62,5 @@ slug: about
 - 네이버 스페셜 로고
   - [한글무늬 만들기](https://logoproject.naver.com/hanguel) · 2017
   - [크리스마스 리스 만들기](https://logoproject.naver.com/christmas) · 2017
+
+</div>
