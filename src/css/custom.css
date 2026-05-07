@@ -73,6 +73,12 @@ article h1 {
 }
 
 
+.footer__disclaimer {
+  margin-top: 4px;
+  font-size: 12px !important;
+  color: var(--ifm-color-gray-500);
+}
+
 .table-of-contents {
   display: none;
 }
