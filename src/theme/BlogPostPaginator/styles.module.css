@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding-top: 1.5rem;
+}
+
+.link {
+  font-size: 14px !important;
+  color: var(--ifm-font-color-base) !important;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--ifm-color-primary) !important;
+}
+
+.arrow {
+  color: var(--ifm-color-primary);
+}
+
+.next {
+  text-align: right;
+}
