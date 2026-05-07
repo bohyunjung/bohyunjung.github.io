@@ -53,6 +53,25 @@ article h1 {
   font-weight: normal;
 }
 
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background-color: rgba(250, 250, 250, 0.85);
+  z-index: -1;
+  pointer-events: none;
+}
+
+[data-theme='dark'] .navbar::before {
+  background-color: rgba(27, 27, 29, 0.85);
+}
+
 .pagination-nav {
   display: none;
 }
@@ -63,4 +82,9 @@ article h1 {
 
 .blog-list-page-wrapper article .markdown > h2:first-child {
   margin-top: 0;
+}
+
+/* Prevent language toggle links from inheriting the global font-size override */
+.navbar .navbar__item a[class*="link"] {
+  font-size: 16px !important;
 }

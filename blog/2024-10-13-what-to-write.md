@@ -1,6 +1,7 @@
 ---
 slug: what-to-write
 title: 어떤 글을 쓸까 - 글또야 도와줘
+unlisted: true
 ---
 
 ## 글또의 힘을 빌려
