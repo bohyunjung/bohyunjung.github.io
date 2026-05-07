@@ -2,7 +2,7 @@
 slug: /en/about
 ---
 
-# About
+# Developer and Storyteller
 
 Hi, I'm Bohyun Jung.
 
