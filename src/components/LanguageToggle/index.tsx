@@ -8,10 +8,11 @@ async function switchTo(lang: 'ko' | 'en', pathname: string) {
   try { localStorage.setItem(LANG_KEY, lang); } catch {}
 
   const fallback = lang === 'en' ? '/en' : '/';
+  const isAlreadyEnglish = pathname.startsWith('/en');
   const target =
     lang === 'en'
-      ? pathname === '/' ? '/en' : `/en${pathname}`
-      : pathname.replace(/^\/en/, '') || '/';
+      ? isAlreadyEnglish ? pathname : (pathname === '/' ? '/en' : `/en${pathname}`)
+      : isAlreadyEnglish ? (pathname.replace(/^\/en/, '') || '/') : pathname;
 
   // If the target is not the fallback, verify the page exists first.
   // A missing post (404) falls back to the language root instead.
