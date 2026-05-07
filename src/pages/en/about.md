@@ -6,7 +6,7 @@ slug: /en/about
 
 Hi, I'm Bohyun Jung.
 
-I've spent over 10 years as a developer and keep finding myself drawn to the work of communicating technology well. Building great technology matters, but communicating it effectively is what unlocks its real value. I'm currently a Senior Developer Advocate at [MongoDB](https://www.mongodb.com), working with developer communities across APAC.
+Building great technology matters, but communicating it effectively is what unlocks its real value. I'm currently a Senior Developer Advocate at [MongoDB](https://www.mongodb.com), working with developer communities across APAC.
 
 I love jazz, airports and cultures I haven't encountered before. I'm raising a young family with my partner and care about keeping records of things.
 
