@@ -78,7 +78,7 @@ const config: Config = {
           type: 'custom-lang-toggle',
           position: 'right',
         },
-        { to: '/about', label: 'About', position: 'right' },
+        { type: 'custom-about-link', position: 'right' },
         {
           to: 'https://github.com/bohyunjung',
           label: 'GitHub',
