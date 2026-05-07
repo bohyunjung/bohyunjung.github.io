@@ -10,17 +10,36 @@ const config: Config = {
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
-
-  markdown: {
-    hooks: {
-      onBrokenMarkdownLinks: 'warn',
-    },
-  },
+  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko'],
   },
+
+  // Detect browser language on first visit and redirect non-Korean speakers to /en.
+  // Saves preference to localStorage ('bhj-lang': 'ko' | 'en') so manual choices persist.
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: `(function(){try{var k='bhj-lang',s=localStorage.getItem(k),e=location.pathname.startsWith('/en');if(s==='en'&&!e){location.replace(location.pathname==='/'?'/en':'/en'+location.pathname);return;}if(s)return;var l=(navigator.language||(navigator.languages&&navigator.languages[0])||'ko').toLowerCase();localStorage.setItem(k,l.startsWith('ko')?'ko':'en');if(!l.startsWith('ko')&&!e)location.replace('/en');}catch(ex){}})();`,
+    },
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'blog-en',
+        path: './blog-en',
+        routeBasePath: '/en',
+        blogSidebarCount: 0,
+        showReadingTime: false,
+        blogListComponent: '@theme/BlogListPage',
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -48,6 +67,10 @@ const config: Config = {
     navbar: {
       title: 'bohyunjung.com',
       items: [
+        {
+          type: 'custom-lang-toggle',
+          position: 'right',
+        },
         { to: '/about', label: 'About', position: 'right' },
         {
           to: 'https://github.com/bohyunjung',
