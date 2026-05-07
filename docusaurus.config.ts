@@ -10,7 +10,12 @@ const config: Config = {
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'ko',
@@ -37,6 +42,7 @@ const config: Config = {
         blogSidebarCount: 0,
         showReadingTime: false,
         blogListComponent: '@theme/BlogListPage',
+        onUntruncatedBlogPosts: 'ignore',
       },
     ],
   ],
@@ -51,6 +57,7 @@ const config: Config = {
           blogSidebarCount: 0,
           showReadingTime: false,
           blogListComponent: '@theme/BlogListPage',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: './src/css/custom.css',
