@@ -1,41 +1,23 @@
-# Website
+# bohyunjung.com
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Personal blog at [bohyunjung.com](https://bohyunjung.com), built with [Docusaurus](https://docusaurus.io/).
 
-### Installation
+Posts are written in Korean (`blog/`) with English translations in `blog-en/`. The site auto-detects browser language on first visit and redirects accordingly, with the preference saved to `localStorage`.
 
-```
-$ yarn
-```
+## Setup
 
-### Local Development
-
-```
-$ yarn start
+```bash
+yarn
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Local development
 
-### Build
-
-```
-$ yarn build
+```bash
+yarn start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Build
 
-### Deployment
-
-Using SSH:
-
+```bash
+yarn build
 ```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
