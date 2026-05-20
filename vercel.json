@@ -1,8 +1,8 @@
 {
   "framework": "docusaurus",
-  "buildCommand": "yarn build",
+  "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "installCommand": "yarn install --frozen-lockfile",
+  "installCommand": "npm ci",
   "headers": [
     {
       "source": "/assets/(.*)",

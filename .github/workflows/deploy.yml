@@ -19,11 +19,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
       - name: Typecheck
-        run: yarn typecheck
+        run: npm run typecheck
       - name: Build website
-        run: yarn build
+        run: npm run build
