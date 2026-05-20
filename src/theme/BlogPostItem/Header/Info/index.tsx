@@ -49,7 +49,7 @@ function Spacer() {
 
 export default function BlogPostItemHeaderInfo({
   className,
-}: Props): JSX.Element {
+}: Props): React.JSX.Element {
   const {metadata} = useBlogPost();
   const {date, readingTime} = metadata;
 
