@@ -2,7 +2,7 @@
   "framework": "docusaurus",
   "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "installCommand": "npm ci",
+  "installCommand": "npm install",
   "headers": [
     {
       "source": "/assets/(.*)",
