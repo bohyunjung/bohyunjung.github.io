@@ -6,6 +6,9 @@ const config: Config = {
   title: 'bohyunjung.com',
   favicon: 'img/favicon.ico',
 
+  // Hosting: Vercel (production branch = main). GitHub Pages는 더 이상 쓰지 않는다.
+  // bohyunjung.github.io 레포의 gh-pages 브랜치엔 리다이렉트 shim만 있으며,
+  // Pages 커스텀 도메인을 다시 걸면 계정의 모든 프로젝트 페이지가 막히니 주의.
   url: 'https://bohyunjung.com',
   baseUrl: '/',
 
