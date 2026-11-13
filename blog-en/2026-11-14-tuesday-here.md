@@ -6,7 +6,7 @@ image: "/img/blog/2026-11-14-tuesday-here/auckland-harbour-og.jpg"
 
 November 11th marked two years since I joined MongoDB. It's my fifth company, and only the second where I've stayed longer than two years.
 
-There are many ways to mark a second anniversary. I decided to take stock of what I've been noticing in my work lately and write down what each of those things means to me.
+There are many ways to mark a second anniversary. I decided to take stock of what I've been noticing at work lately and write down what each of those things means to me.
 
 {/* truncate */}
 
