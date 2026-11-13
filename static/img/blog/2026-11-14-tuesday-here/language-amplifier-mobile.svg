@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 40 540 930" width="540" height="930" role="img" aria-labelledby="t d">
+  <title id="t">언어의 위치에 대한 두 가지 관점</title>
+  <desc id="d">왼쪽은 언어가 여섯 꼭짓점 중 하나인 육각형으로, 언어 점수만 낮아 한쪽이 찌그러져 있다. 오른쪽은 기술력, 도메인 지식, 커뮤니티, 기획력, 실행력으로 이루어진 꽉 찬 오각형이 언어라는 배율에 의해 바깥쪽으로 확장되는 모습이다.</desc>
+  <style>
+    text { font-family: D2Coding, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif; fill: #3d3d3d; }
+    .label { font-size: 20px; }
+    .accent { fill: #ff4f01; font-weight: 700; }
+    .caption { font-size: 20px; fill: #666; }
+    .small { font-size: 16px; }
+    .grid { fill: none; stroke: #dcdcdc; stroke-width: 1; }
+    .axis { stroke: #e6e6e6; stroke-width: 1; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ff4f01"/>
+    </marker>
+  </defs>
+
+  <g transform="translate(10 0)">
+    <polygon class="grid" points="240,100 369.9,175 369.9,325 240,400 110.1,325 110.1,175"/>
+    <polygon class="grid" points="240,150 326.6,200 326.6,300 240,350 153.4,300 153.4,200"/>
+    <polygon class="grid" points="240,200 283.3,225 283.3,275 240,300 196.7,275 196.7,225"/>
+    <line class="axis" x1="240" y1="250" x2="240" y2="100"/>
+    <line class="axis" x1="240" y1="250" x2="369.9" y2="175"/>
+    <line class="axis" x1="240" y1="250" x2="369.9" y2="325"/>
+    <line class="axis" x1="240" y1="250" x2="240" y2="400"/>
+    <line class="axis" x1="240" y1="250" x2="110.1" y2="325"/>
+    <line class="axis" x1="240" y1="250" x2="110.1" y2="175"/>
+
+    <polygon points="240,205 350.4,186.3 350.4,313.8 240,377.5 129.6,313.8 129.6,186.3"
+             fill="#6b6b6b" fill-opacity="0.18" stroke="#6b6b6b" stroke-width="2" stroke-linejoin="round"/>
+    <circle cx="240" cy="205" r="5" fill="#ff4f01"/>
+
+    <text class="label accent" x="240" y="80" text-anchor="middle">언어</text>
+    <text class="label" x="384" y="170">기술력</text>
+    <text class="label" x="384" y="342">도메인 지식</text>
+    <text class="label" x="240" y="426" text-anchor="middle">커뮤니티</text>
+    <text class="label" x="96" y="342" text-anchor="end">기획력</text>
+    <text class="label" x="96" y="170" text-anchor="end">실행력</text>
+
+    <text class="caption" x="240" y="476" text-anchor="middle">흔히 생각하는 언어의 위치</text>
+  </g>
+
+  <g transform="translate(-470 470)">
+    <polygon points="720,100 862.7,203.6 808.2,371.4 631.8,371.4 577.4,203.6"
+             fill="#ff4f01" fill-opacity="0.07" stroke="#ff4f01" stroke-width="1.5" stroke-dasharray="6 5" stroke-linejoin="round"/>
+
+    <polygon points="720,155 810.3,220.6 775.8,326.9 664.2,326.9 629.7,220.6"
+             fill="#6b6b6b" fill-opacity="0.18" stroke="#6b6b6b" stroke-width="2" stroke-linejoin="round"/>
+
+    <g stroke="#ff4f01" stroke-width="2" marker-end="url(#arrow)">
+      <line x1="720" y1="150" x2="720" y2="110"/>
+      <line x1="815.1" y1="219.1" x2="852.9" y2="206.8"/>
+      <line x1="778.8" y1="330.9" x2="802.2" y2="363.3"/>
+      <line x1="661.2" y1="330.9" x2="637.8" y2="363.3"/>
+      <line x1="624.9" y1="219.1" x2="587.1" y2="206.8"/>
+    </g>
+
+    <text class="label" x="720" y="80" text-anchor="middle">기술력</text>
+    <text class="label" x="878" y="200">도메인 지식</text>
+    <text class="label" x="818" y="398">커뮤니티</text>
+    <text class="label" x="622" y="398" text-anchor="end">기획력</text>
+    <text class="label" x="562" y="200" text-anchor="end">실행력</text>
+
+    <text class="accent" x="720" y="250" text-anchor="middle" font-size="26">× 언어</text>
+    <text class="small accent" x="720" y="272" text-anchor="middle" font-weight="400">(Amplifier)</text>
+
+    <text class="caption" x="720" y="476" text-anchor="middle">실제 글로벌 무대에서 작동하는 언어의 역할</text>
+  </g>
+</svg>

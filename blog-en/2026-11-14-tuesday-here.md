@@ -74,7 +74,10 @@ Not long ago, ahead of a major company announcement, we had a change at the top.
 
 I have a pet theory. Language amplifies the knowledge and experience a person has, and it sets the size of their influence and leadership. If you drew someone's abilities as an N-sided polygon, language would scale the whole shape rather than sit at a single vertex.
 
-![On the left, a hexagon where language is one of six vertices, dented because only the language score is low. On the right, a full pentagon of five abilities, scaled outward by language as a multiplier.](/img/blog/2026-11-14-tuesday-here/language-amplifier-en.svg)
+<picture>
+  <source media="(max-width: 600px)" srcSet="/img/blog/2026-11-14-tuesday-here/language-amplifier-en-mobile.svg" />
+  <img src="/img/blog/2026-11-14-tuesday-here/language-amplifier-en.svg" alt="On the left, a hexagon where language is one of six vertices, dented because only the language score is low. On the right, a full pentagon of five abilities, scaled outward by language as a multiplier." />
+</picture>
 
 However good the shape, multiply every ability by zero and nobody cares about the shape. I doubt someone like that could sit across from customers and C-level executives on a global stage, or grow a business.
 
