@@ -5,7 +5,7 @@ title: "Technology as a Gift"
 
 What does it mean to see technology as a gift? The experimental educational program '[SFPC Summer 2019 in Yamaguchi](https://www.ycam.jp/en/events/2019/sfpc/),' held in Yamaguchi, Japan in 2019, began from this very question. Organized by the [School For Poetic Computation (SFPC)](https://www.instagram.com/sfpc_nyc/), an experimental school based in New York, the program explored the intersection of art, code, hardware, and theory under the theme "Technology as a Gift." Having followed SFPC's work with great interest, I participated in this ten-day program just before the Chuseok holiday in 2019, and it was there that I was able to completely shift my perspective on the products and technology I build as a software developer.
 
-<!-- truncate -->
+{/* truncate */}
 
 :::note
 

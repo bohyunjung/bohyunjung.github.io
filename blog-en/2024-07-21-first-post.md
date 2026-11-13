@@ -7,7 +7,7 @@ title: First Post
 
 I love reading manuals. Before I touch almost any consumer product or service, I need to look through its design intent, features, and branding copy. I remember my friends finding it odd that, after buying my first car, I left it untouched and read the manual from page one. I'm the sort of person who reads "Health Benefits of Buckwheat" at a restaurant while waiting for the food.
 
-<!-- truncate -->
+{/* truncate */}
 
 That is how I enjoy a product. A good manual puts me in a good mood before I've even started using it. Product documentation, to me, is an important part of the user experience. Having absorbed so many different kinds of documentation over the years, I've naturally developed opinions. Lately I gravitate toward documentation that commits to user empowerment. I'll write about that separately.
 

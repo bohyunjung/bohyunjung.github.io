@@ -7,7 +7,7 @@ title: "From Evangelist to Advocate"
 
 My name carries a Buddhist meaning, and my family practices Buddhism. Yet for some reason, I attended a kindergarten run by a Christian organization. Most of those memories are too distant to recall clearly now, but one person stands out. Someone who opened the door of the school van and made sure we arrived safely each morning and afternoon, who asked how we were feeling at the start and end of every day, who watched over the children and gave advice on how to get along better with friends. We called him the *jeondobsa-nim*, the evangelist, and that is what the word has always meant to me.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## Tech Evangelist
 

@@ -6,7 +6,7 @@ image: "/img/blog/2024-12-23-six-weeks-at-mongodb/4.jpg"
 
 Six weeks have passed since I joined MongoDB on November 11th. They've been packed with all kinds of activities, from the company's well-structured onboarding program to early chances to shadow real work. In this post, I'd like to briefly look back on the experience so far.
 
-<!-- truncate -->
+{/* truncate */}
 
 ## Onboarding Program
 

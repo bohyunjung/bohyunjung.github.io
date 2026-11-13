@@ -8,7 +8,7 @@ unlisted: true
 
 Nearly three months have passed since I boldly launched this blog. I thought the second post would come more easily than the first, but it turned out to be the opposite. Not because I have nothing to write about. In the second half of this year, I've been thinking a great deal about the direction of my career, encountering new ideas, meeting all kinds of people, quietly accumulating material for future posts. What I lacked was the resolve to commit to a topic and a deadline, and the perfectionist in me made it hard to start at all, since I wanted to write well if I was going to write.
 
-<!-- truncate -->
+{/* truncate */}
 
 That's when, hoping to break through the standstill, I joined a developer writing community called Geultto last September. I first heard about Geultto a few years ago. I remember watching a colleague participate in it and thinking I'd like to try it someday. When I launched this blog and made myself a promise to write, Geultto seemed like a good opportunity to follow through, since the community is built around writing one post every two weeks. This tenth cohort, active through March 2025, is said to be Geultto's final one. With around 640 developers participating, the scale is remarkable.
 
